@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Dashboard</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h2 class="title">Employee Dashboard</h2>
+        </header>
+        <div class="empBox" id="empBox">
+            <!-- <div class="empCard">
+                <img src="assets/editSvg.svg" alt="edit icon" class="editIcon">
+                <div class="empUp">
+                    <img src="assets/avatar.svg" alt="" class="avatar">
+                    <p class="name">Javed akhtar</p>
+                    <p class="userId">1234567890</p>
+                </div>
+                <div class="empInfo">
+                    <p class="sal">salary</p>
+                    <p class="salVal">84000</p>
+                    <p class="add">Address</p>
+                    <p class="addVal">manitola doranda ranchi</p>
+                    <p class="Mob">Mobile</p>
+                    <p class="mobVal">84000</p>
+                </div>
+            </div> -->
+
+
+            <img id="addEmp" src="assets/add.svg" alt="Add Employee" class="addEmp">
+
+        </div>
+    </div>
+
+    <div class="form hidden">
+        <div class="formInfo">
+            <img src="assets/cancel.svg" alt="cancel" class="cancel">
+            <p class="newName">Name</p>
+            <input type="text" placeholder="Name">
+            <p class="newId">Id</p>
+            <input type="number" placeholder="Id">
+            <p class="newSal">Salary</p>
+            <input type="number" placeholder="Salary">
+            <p class="newAdd">Address</p>
+            <input type="text" placeholder="Address">
+            <p class="newMob">Mobile</p>
+            <input type="number" placeholder="Mobile number">
+            <button class="del btn">Delete</button>
+            <button id="updateBtn" class="Update btn">Update</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
